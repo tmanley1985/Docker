@@ -15,3 +15,8 @@ Executing busybox-1.24.2-r0.trigger
 OK: 13 MiB in 16 packages
 / # bash
 bash-4.3# 
+
+
+Thomass-MacBook-Pro:Docker thomasmanley$ docker run -it realpage/alpine-bash:3.3 sh
+/ # bash
+bash-4.3# 
