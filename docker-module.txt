@@ -20,3 +20,12 @@ bash-4.3#
 Thomass-MacBook-Pro:Docker thomasmanley$ docker run -it realpage/alpine-bash:3.3 sh
 / # bash
 bash-4.3# 
+
+
+Thomass-MacBook-Pro:Docker thomasmanley$ docker run -it realpage/alpine-bash:3.3 sh
+/ # ./home/welcome.sh
+sh: ./home/welcome.sh: Permission denied
+/ # chmod +x ./home/welcome.sh
+/ # ./home/welcome.sh
+Hello, World!
+/ # 
