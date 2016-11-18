@@ -1,3 +1,17 @@
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 ubuntu              latest              e4415b714b62        24 hours ago        128.1 MB
 alpine              3.3                 6c2aa2137d97        4 weeks ago         4.805 MB
+
+/ # apk add bash --no-cache
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.3/main/x86_64/APKINDEX.tar.gz
+fetch http://dl-cdn.alpinelinux.org/alpine/v3.3/community/x86_64/APKINDEX.tar.gz
+(1/5) Installing ncurses-terminfo-base (6.0-r6)
+(2/5) Installing ncurses-terminfo (6.0-r6)
+(3/5) Installing ncurses-libs (6.0-r6)
+(4/5) Installing readline (6.3.008-r4)
+(5/5) Installing bash (4.3.42-r3)
+Executing bash-4.3.42-r3.post-install
+Executing busybox-1.24.2-r0.trigger
+OK: 13 MiB in 16 packages
+/ # bash
+bash-4.3# 
