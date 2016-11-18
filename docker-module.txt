@@ -34,3 +34,19 @@ Hello, World!
 Thomass-MacBook-Pro:Docker thomasmanley$ docker run realpage/alpine-bash:3.3
 Hello, World!
 Thomass-MacBook-Pro:Docker thomasmanley$ 
+
+
+Thomass-MacBook-Pro:Docker thomasmanley$ docker pull dockercloud/hello-world
+Using default tag: latest
+latest: Pulling from dockercloud/hello-world
+
+e110a4a17941: Pull complete 
+624ea5173301: Pull complete 
+5b03ab56e141: Pull complete 
+5410b66cf9b4: Pull complete 
+9800c12c3828: Pull complete 
+Digest: sha256:7c53ccb0442e81e924f1076538963fdfe6ea37d740c145d23b90cd9b313a4bf6
+Status: Downloaded newer image for dockercloud/hello-world:latest
+Thomass-MacBook-Pro:Docker thomasmanley$ docker run dockercloud/hello-world
+docker images
+
