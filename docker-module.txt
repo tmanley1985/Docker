@@ -29,3 +29,8 @@ sh: ./home/welcome.sh: Permission denied
 / # ./home/welcome.sh
 Hello, World!
 / # 
+
+
+Thomass-MacBook-Pro:Docker thomasmanley$ docker run realpage/alpine-bash:3.3
+Hello, World!
+Thomass-MacBook-Pro:Docker thomasmanley$ 
